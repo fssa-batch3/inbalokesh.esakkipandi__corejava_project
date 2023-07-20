@@ -71,5 +71,4 @@ public class HashCodeEqualsDemo {
 		System.out.println("HashSet size:" + setOfEmps.size());
 
 	}
-
 }

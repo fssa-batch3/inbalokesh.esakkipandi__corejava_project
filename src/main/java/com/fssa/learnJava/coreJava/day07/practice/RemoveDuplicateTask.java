@@ -75,13 +75,15 @@ public class RemoveDuplicateTask {
 		Task task2 = new Task(122, "Buy Cake", date1);
 		Task task3 = new Task(121, "Jogging", date2);
 		Task task4 = new Task(120, "Study", date3);
-
+		Task task5 = new Task(121, "Jogging", date2);
+		
 		ArrayList<Task> taskDetails = new ArrayList<Task>();
 		taskDetails.add(task1);
 		taskDetails.add(task2);
 		taskDetails.add(task3);
 		taskDetails.add(task4);
-
+		taskDetails.add(task5);
+		
 		System.out.println("ArrayList size: " + taskDetails.size());
 
 		HashSet<Task> setOfTasks = new HashSet<>();
